@@ -1,0 +1,48 @@
+#Problem1 {
+	width: 360px;
+}
+
+.elemInsertion {
+	border: solid black 2px;
+	padding: 2px 5px;
+	margin: 2px 0;
+}
+
+#setColorDiv,
+#setColorDiv label,
+#setColorDiv input {
+	display: inline;
+	float: left;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	background: lightgreen;
+}
+
+th, td {
+	padding: 0 5px;
+}
+
+.emptyCell, th {
+	text-align: center;
+}
+
+.slider {
+  margin: 10px 0;
+  width: 50px; /* Update to your slider width */
+  height: 15px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
